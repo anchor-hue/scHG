@@ -11,11 +11,7 @@ same_nn=2;%2
 
 
 % load dataset
-% load('D:\ganyuanruc\MProject\data6\data_sim_new.mat');
-% load('D:\ganyuanruc\MProject\data6\data_mESC_my.mat'); 
-% load('D:\ganyuanruc\MProject\data6\pbmc_inhouse_new.mat'); 
-load('D:\ganyuanruc\MProject\data6\pbmc_10x.mat'); 
-% load('D:\ganyuanruc\MProject\data6\pbmc_8185.mat');
+% load('./data6/data_sim_new.mat');
 
 
 n = size(X{1}, 1);
@@ -46,3 +42,4 @@ current_seed = 142;
 result = ClusteringMeasure_new(Y, y_pred);
 fprintf('time=%f\n', evaltime);
 disp(result);
+
