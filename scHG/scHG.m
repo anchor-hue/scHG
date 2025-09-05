@@ -1,5 +1,4 @@
 function [Y, obj, coeff] = scHG(As, Y, grid_cnt, max_iter)
-
     arguments
         As
         Y
