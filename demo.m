@@ -36,11 +36,12 @@ As = cellfun(@(x) constructW_PKN(x, 10), X, 'uni', 0); %10
 % 固定基础种子（例如 42）
 current_seed = 142;
 
-[y_pred, obj, coeff, n_g, y_coar, evaltime] = run_EBMGC_GNF(As, c, true, k_n, same_nn, current_seed);
+[y_pred, obj, coeff, n_g, y_coar, evaltime] = run_scHG(As, c, true, k_n, same_nn, current_seed);
 
 
 result = ClusteringMeasure_new(Y, y_pred);
 fprintf('time=%f\n', evaltime);
 disp(result);
+
 
 
