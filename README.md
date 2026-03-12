@@ -36,7 +36,7 @@ scHG/
         ├── struct_nn.m           # Neural network structure
         └── weighted_sum.m        # Weighted graph combination
 ```
-
+For the BMCITE dataset, it can be downloaded via the link: http://mialab.ruc.edu.cn/scHG_code/zip
 ## Quick Start
 
 ### Prerequisites
@@ -139,5 +139,6 @@ result = ClusteringMeasure_new(Y, y_pred);
 fprintf('time=%f\n', evaltime);
 disp(result);
 ```
+
 
 The evaluation includes multiple metrics such as Accuracy (ACC), Normalized Mutual Information (NMI), Purity, F-score (F), Precision (P), Recall (R), Rand Index (RI), and Adjusted Rand Index (ARI).
