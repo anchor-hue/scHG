@@ -2,6 +2,8 @@
 
 Here, we introduce the supercell paradigm, in which expression-coherent cells are compressed into candidate units for rare cell population analysis. Supercells are constructed using angle-aware similarity metrics and second-order co-occurrence neighbors, with impurity cells pruned by degree centrality. To address scalability challenges, we implement sparse matrix optimization and iterative high-order graph updates, enabling efficient integration of large-scale multi-omics datasets. Building on this framework, we develop scHG—a high-order graph learning approach guided by an omics-weighted optimizer that adaptively balances contributions from gene expression, surface proteins, and chromatin accessibility.
 
+The Python version of scHG can be downloaded via the link: https://github.com/anchor-hue/scHG_Python.
+
 ## Project Structure
 
 ```
